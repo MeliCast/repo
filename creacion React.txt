@@ -1,0 +1,60 @@
+Aldo@LAPTOP-SLRLBM2S MINGW64 ~
+$ cd C:\repo
+
+Aldo@LAPTOP-SLRLBM2S MINGW64 /c/repo
+$ npx create-react-app plataforma
+
+Aldo@LAPTOP-SLRLBM2S MINGW64 /c/repo/plataforma
+$ yarn add ed-grid edteam-style-guides
+
+Aldo@LAPTOP-SLRLBM2S MINGW64 /c/repo/plataforma
+$ yarn add redux react-redux redux-thunk redux-devtools-extension
+
+Aldo@LAPTOP-SLRLBM2S MINGW64 /c/repo/plataforma
+$ yarn add axios
+
+Aldo@LAPTOP-SLRLBM2S MINGW64 /c/repo/plataforma
+$ yarn add react-router-dom@5       -- Se agrego la version 5 para que sea compatible
+
+Aldo@DESKTOP-5U6U108 MINGW64 /d/repo/plataforma
+$ yarn add sass
+
+Aldo@DESKTOP-5U6U108 MINGW64 /d/repo/plataforma
+$ npm install -g json-server        (-- para instalar servidor API)
+
+Aldo@DESKTOP-5U6U108 MINGW64 /d/repo/api
+$ json-server --watch db.json --port 3001    (-- para levantar una API)
+
+========= Instalando "styled-components"====================
+
+Aldo@DESKTOP-5U6U108 MINGW64 /d/repo/modal
+$ npm install --save styled-components
+
+
+=============================
+POST => https://api-edteam.alejogs4.now.sh/signup
+//FICHA "Headers"
+key: Content-Type
+value: application/json
+//FICHA "Body" (raw)
+{
+    "email":"usuario1@gmail.com",
+    "name":"Usuario 1",
+    "password":"123456"
+}
+https://api-edteam.alejogs4.now.sh/login
+{
+    "email":"usuario1@gmail.com",
+    "password":"123456"
+}
+=============================
+
+
+
+
+
+
+Para correr el proyecto: $ yarn start
+Detener servidor de desarrollo :   control+C
+
+
